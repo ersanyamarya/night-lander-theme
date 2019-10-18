@@ -1,0 +1,160 @@
+// Light theme color
+$primary-color:#1E152A;
+$secondary-color:#4E6766;
+$accent-color:#477998;
+$error-color:#EF5B5B;
+$warn-color:#FFBA49;
+$text-color:#424874;
+$primary-background-color:#F4F3EE;
+$secondary-background-color:#F0EFF4;
+//  dark
+$dark-primary-color:#BABCCC;
+$dark-secondary-color:#BEC7C7;
+$dark-accent-color:#BCCED9;
+$dark-error-color:#F9C3C3;
+$dark-warn-color:#FFE5BC;
+$dark-text-color:#BABCCC;
+$dark-primary-background-color:#1E152A;
+$dark-secondary-background-color:#4E6766;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: $primary-background-color;
+    color: $text-color;
+}
+
+h1 {
+    font-size: 4em;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    font-size: 1.8em;
+    font-family: 'Lato', sans-serif;
+    opacity: 0.8;
+}
+
+h4 {
+    font-size: 1.6em;
+    font-family: 'Lato', sans-serif;
+    opacity: 0.6;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: $text-color;
+    font-style: oblique;
+}
+
+section {
+    padding: 0.5em;
+}
+
+.section-heading {
+    background: $secondary-background-color;
+    color: $text-color;
+    text-align: center;
+    padding: 0.2em;
+}
+
+.colors-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.color-ball {
+    margin: auto;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    // border: #333333 solid 0.2em;
+    // margin: 1em;
+}
+
+#primary-color {
+    background: $primary-color;
+}
+
+#secondary-color {
+    background: $secondary-color;
+}
+
+#accent-color {
+    background: $accent-color;
+}
+
+#error-color {
+    background: $error-color;
+}
+
+#warn-color {
+    background: $warn-color;
+}
+
+#text-color {
+    background: $text-color;
+}
+
+#primary-background-color {
+    background: $primary-background-color;
+}
+
+#secondary-background-color {
+    background: $secondary-background-color;
+}
+
+.dark-color-section {
+    padding: 1em;
+    background-color: $dark-primary-background-color;
+    color: $dark-text-color;
+}
+
+#dark-primary-color {
+    background: $dark-primary-color;
+}
+
+#dark-secondary-color {
+    background: $dark-secondary-color;
+}
+
+#dark-accent-color {
+    background: $dark-accent-color;
+}
+
+#dark-error-color {
+    background: $dark-error-color;
+}
+
+#dark-warn-color {
+    background: $dark-warn-color;
+}
+
+#dark-text-color {
+    background: $dark-text-color;
+}
+
+#dark-primary-background-color {
+    background: $dark-primary-background-color;
+}
+
+#dark-secondary-background-color {
+    background: $dark-secondary-background-color;
+}
