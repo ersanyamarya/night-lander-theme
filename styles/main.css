@@ -7,14 +7,8 @@ body,
 html {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
-  background-color: #fefefe;
-  /* Old browsers */
-  /* FF3.6-15 */
-  /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#e0e0e0));
-  background: linear-gradient(to bottom, #fefefe 0%, #e0e0e0 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  color: #353535;
+  background-color: #F4F3EE;
+  color: #424874;
 }
 
 h1 {
@@ -46,7 +40,7 @@ p {
 a {
   font-size: 1.1em;
   text-decoration: none;
-  color: #353535;
+  color: #424874;
   font-style: oblique;
 }
 
@@ -55,8 +49,8 @@ section {
 }
 
 .section-heading {
-  background: #e0e0e0;
-  color: #353535;
+  background: #F0EFF4;
+  color: #424874;
   text-align: center;
   padding: 0.2em;
 }
@@ -78,82 +72,75 @@ section {
   width: 6em;
   height: 6em;
   border-radius: 50%;
-  border: #333333 solid 0.2em;
 }
 
 #primary-color {
-  background: #cc9900;
+  background: #1E152A;
 }
 
 #secondary-color {
-  background: #99cc00;
+  background: #4E6766;
 }
 
 #accent-color {
-  background: #ff0099;
+  background: #477998;
 }
 
 #error-color {
-  background: #ff5555;
+  background: #EF5B5B;
 }
 
 #warn-color {
-  background: #ffff00;
+  background: #FFBA49;
 }
 
 #text-color {
-  background: #353535;
+  background: #424874;
 }
 
 #primary-background-color {
-  background: #fefefe;
+  background: #F4F3EE;
 }
 
 #secondary-background-color {
-  background: #e0e0e0;
+  background: #F0EFF4;
 }
 
 .dark-color-section {
   padding: 1em;
-  background-color: #24055c;
-  /* Old browsers */
-  /* FF3.6-15 */
-  /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, left bottom, from(#24055c), to(#43055c));
-  background: linear-gradient(to bottom, #24055c 0%, #43055c 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  color: #Fefefe;
+  background-color: #1E152A;
+  color: #BABCCC;
 }
 
 #dark-primary-color {
-  background: #cc9900;
+  background: #BABCCC;
 }
 
 #dark-secondary-color {
-  background: #99cc00;
+  background: #BEC7C7;
 }
 
 #dark-accent-color {
-  background: #ff0099;
+  background: #BCCED9;
 }
 
 #dark-error-color {
-  background: #ff5555;
+  background: #F9C3C3;
 }
 
 #dark-warn-color {
-  background: #ffff00;
+  background: #FFE5BC;
 }
 
 #dark-text-color {
-  background: #Fefefe;
+  background: #BABCCC;
 }
 
 #dark-primary-background-color {
-  background: #24055c;
+  background: #1E152A;
 }
 
 #dark-secondary-background-color {
-  background: #43055c;
+  background: #4E6766;
 }
 /*# sourceMappingURL=main.css.map */
