@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fefefe;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#e0e0e0));
+  background: linear-gradient(to bottom, #fefefe 0%, #e0e0e0 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  color: #353535;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+}
+
+h3 {
+  font-size: 1.8em;
+  font-family: 'Lato', sans-serif;
+  opacity: 0.8;
+}
+
+h4 {
+  font-size: 1.6em;
+  font-family: 'Lato', sans-serif;
+  opacity: 0.6;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #353535;
+  font-style: oblique;
+}
+
+section {
+  padding: 0.5em;
+}
+
+.section-heading {
+  background: #e0e0e0;
+  color: #353535;
+  text-align: center;
+  padding: 0.2em;
+}
+
+.colors-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+.color-ball {
+  margin: auto;
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  border: #333333 solid 0.2em;
+}
+
+#primary-color {
+  background: #cc9900;
+}
+
+#secondary-color {
+  background: #99cc00;
+}
+
+#accent-color {
+  background: #ff0099;
+}
+
+#error-color {
+  background: #ff5555;
+}
+
+#warn-color {
+  background: #ffff00;
+}
+
+#text-color {
+  background: #353535;
+}
+
+#primary-background-color {
+  background: #fefefe;
+}
+
+#secondary-background-color {
+  background: #e0e0e0;
+}
+
+.dark-color-section {
+  padding: 1em;
+  background-color: #24055c;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#24055c), to(#43055c));
+  background: linear-gradient(to bottom, #24055c 0%, #43055c 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  color: #Fefefe;
+}
+
+#dark-primary-color {
+  background: #cc9900;
+}
+
+#dark-secondary-color {
+  background: #99cc00;
+}
+
+#dark-accent-color {
+  background: #ff0099;
+}
+
+#dark-error-color {
+  background: #ff5555;
+}
+
+#dark-warn-color {
+  background: #ffff00;
+}
+
+#dark-text-color {
+  background: #Fefefe;
+}
+
+#dark-primary-background-color {
+  background: #24055c;
+}
+
+#dark-secondary-background-color {
+  background: #43055c;
+}
+/*# sourceMappingURL=main.css.map */

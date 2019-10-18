@@ -1,0 +1,173 @@
+// Light theme color
+$primary-color:#cc9900;
+$secondary-color:#99cc00;
+$accent-color:#ff0099;
+$error-color:#ff5555;
+$warn-color:#ffff00;
+$text-color:#353535;
+$primary-background-color:#fefefe;
+$secondary-background-color:#e0e0e0;
+$dark-primary-color:#cc9900;
+$dark-secondary-color:#99cc00;
+$dark-accent-color:#ff0099;
+$dark-error-color:#ff5555;
+$dark-warn-color:#ffff00;
+$dark-text-color:#Fefefe;
+$dark-primary-background-color:#24055c;
+$dark-secondary-background-color:#43055c;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: $primary-background-color;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, $primary-background-color 0%, $secondary-background-color 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, $primary-background-color 0%, $secondary-background-color 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, $primary-background-color 0%, $secondary-background-color 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: $text-color;
+}
+
+h1 {
+    font-size: 4em;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    font-size: 1.8em;
+    font-family: 'Lato', sans-serif;
+    opacity: 0.8;
+}
+
+h4 {
+    font-size: 1.6em;
+    font-family: 'Lato', sans-serif;
+    opacity: 0.6;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: $text-color;
+    font-style: oblique;
+}
+
+section {
+    padding: 0.5em;
+}
+
+.section-heading {
+    background: $secondary-background-color;
+    color: $text-color;
+    text-align: center;
+    padding: 0.2em;
+}
+
+.colors-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.color-ball {
+    margin: auto;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    border: #333333 solid 0.2em;
+    // margin: 1em;
+}
+
+#primary-color {
+    background: $primary-color;
+}
+
+#secondary-color {
+    background: $secondary-color;
+}
+
+#accent-color {
+    background: $accent-color;
+}
+
+#error-color {
+    background: $error-color;
+}
+
+#warn-color {
+    background: $warn-color;
+}
+
+#text-color {
+    background: $text-color;
+}
+
+#primary-background-color {
+    background: $primary-background-color;
+}
+
+#secondary-background-color {
+    background: $secondary-background-color;
+}
+
+.dark-color-section {
+    padding: 1em;
+    background-color: $dark-primary-background-color;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, $dark-primary-background-color 0%, $dark-secondary-background-color 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, $dark-primary-background-color 0%, $dark-secondary-background-color 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, $dark-primary-background-color 0%, $dark-secondary-background-color 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: $dark-text-color;
+}
+
+#dark-primary-color {
+    background: $dark-primary-color;
+}
+
+#dark-secondary-color {
+    background: $dark-secondary-color;
+}
+
+#dark-accent-color {
+    background: $dark-accent-color;
+}
+
+#dark-error-color {
+    background: $dark-error-color;
+}
+
+#dark-warn-color {
+    background: $dark-warn-color;
+}
+
+#dark-text-color {
+    background: $dark-text-color;
+}
+
+#dark-primary-background-color {
+    background: $dark-primary-background-color;
+}
+
+#dark-secondary-background-color {
+    background: $dark-secondary-background-color;
+}
